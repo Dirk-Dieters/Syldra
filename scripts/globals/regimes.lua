@@ -1373,7 +1373,7 @@ tpz.regime.checkRegime = function(player, mob, regimeId, index, regimeType)
     else
 		local party = player:getParty()
 	    for _, member in ipairs(party) do
-		    partysize += partysize +1
+		    partySize = (partySize + 1)
         end
 		rewardMod = (1 / partySize)
 		gilMod = 0.5
