@@ -1365,7 +1365,7 @@ tpz.regime.checkRegime = function(player, mob, regimeId, index, regimeType)
 		
         -- tabs
         local tabs = math.floor(reward / 10) * TABS_RATE
-        tabs = utils.clamp(tabs, 0, 50000 - player:getCurrency("valor_point")) -- Retail caps players at 50000 tabs
+        tabs = utils.clamp(tabs, 0, 500 - player:getCurrency("valor_point")) -- Retail caps players at 50000 tabs
         player:addCurrency("valor_point", tabs)
         player:messageBasic(tpz.msg.basic.FOV_OBTAINS_TABS, tabs, player:getCurrency("valor_point"))
 
