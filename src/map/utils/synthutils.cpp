@@ -490,6 +490,8 @@ int32 doSynthSkillUp(CCharEntity* PChar)
                         satier--;
                     }
                 }
+                if (skillUpAmount == 0)
+                    skillUpAmount += (PChar->CraftContainer->getQuantity(0) != SYNTHESIS_FAIL);
 
                 // Do craft amount multiplier
                 if (map_config.craft_amount_multiplier > 1)
