@@ -1356,11 +1356,13 @@ tpz.regime.checkRegime = function(player, mob, regimeId, index, regimeType)
 
     -- award gil and tabs once per day, or at every page completion if REGIME_WAIT is 0 in settings.lua
     local vanadielEpoch = vanaDay()
-    if REGIME_WAIT == 0 or player:getCharVar("[regime]lastReward") < vanadielEpoch then
-        -- gil
-        player:addGil(reward)
-        player:messageBasic(tpz.msg.basic.FOV_OBTAINS_GIL, reward)
-
+    local partySize = 0
+    local rewardMod = 0
+	local gilMod = 1
+	
+	if REGIME_WAIT == 0 or player:getCharVar("[regime]lastReward") < vanadielEpoch then
+	    rewardMod = 1
+		
         -- tabs
         local tabs = math.floor(reward / 10) * TABS_RATE
         tabs = utils.clamp(tabs, 0, 50000 - player:getCurrency("valor_point")) -- Retail caps players at 50000 tabs
@@ -1368,10 +1370,21 @@ tpz.regime.checkRegime = function(player, mob, regimeId, index, regimeType)
         player:messageBasic(tpz.msg.basic.FOV_OBTAINS_TABS, tabs, player:getCurrency("valor_point"))
 
         player:setCharVar("[regime]lastReward", vanadielEpoch)
-    end
+    else
+		local party = player:getParty()
+	    for _, member in ipairs(party) do
+		    partysize += partysize +1
+        end
+		rewardMod = (1 / partySize)
+		gilMod = 0.5
+	end
+
+    -- gil
+    player:addGil(reward * rewardMod * gilMod)
+    player:messageBasic(tpz.msg.basic.FOV_OBTAINS_GIL, (reward * rewardMod * gilMod))
 
     -- award XP every page completion
-    player:addExp(reward)
+    player:addExp(reward * rewardMod)
 
     -- repeating regimes
     if player:getCharVar("[regime]repeat") == 1 then
