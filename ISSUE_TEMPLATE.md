@@ -1,8 +1,9 @@
-<!-- place 'x' mark between square [] brackets to checkmark box -->
-**_I have:_**
+Character experiencing/reporting issue:
 
-- [] searched existing issues (http://project-topaz.com/issues/) to see if the issue has already been opened
-- [] checked the commit log to see if the issue has been resolved since my server was last updated
+Description of issue:
 
-**_Additional Information_** (Steps to reproduce/Expected behavior) **:** 
 
+
+
+
+Steps to recreate:
