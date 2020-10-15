@@ -217,7 +217,7 @@ tpz.shop =
 --                8854,    4150,      tpz.craftRank.AMATEUR,      -- Clothcraft Kit 40
 --                8855,    5300,      tpz.craftRank.AMATEUR,      -- Clothcraft Kit 45
 --                8856,    7600,      tpz.craftRank.AMATEUR,      -- Clothcraft Kit 50
-                9251, 1126125,      tpz.craftRank.AMATEUR       -- Khoma Thread
+--                9251, 1126125,      tpz.craftRank.AMATEUR       -- Khoma Thread
         },
         [tpz.skill.GOLDSMITHING] =
         {
@@ -263,7 +263,7 @@ tpz.shop =
 --                8840,    4150,      tpz.craftRank.AMATEUR,      -- Goldsmithing Kit 40
 --                8841,    5300,      tpz.craftRank.AMATEUR,      -- Goldsmithing Kit 45
 --                8842,    7600,      tpz.craftRank.AMATEUR,      -- Goldsmithing Kit 50
-                9249, 1126125,      tpz.craftRank.AMATEUR       -- Ruthenium Ore
+--                9249, 1126125,      tpz.craftRank.AMATEUR       -- Ruthenium Ore
         },
         [tpz.skill.WOODWORKING] =
         {
@@ -293,7 +293,7 @@ tpz.shop =
 --                8812,    4150,      tpz.craftRank.AMATEUR,      -- Smithing Kit 40
 --                8813,    5300,      tpz.craftRank.AMATEUR,      -- Smithing Kit 45
 --                8814,    7600,      tpz.craftRank.AMATEUR,      -- Smithing Kit 50
-                9245, 1126125,      tpz.craftRank.AMATEUR       -- Cypress Log
+--                9245, 1126125,      tpz.craftRank.AMATEUR       -- Cypress Log
         },
         [tpz.skill.ALCHEMY] =
         {
@@ -325,7 +325,7 @@ tpz.shop =
 --                8896,    4150,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 40
 --                8897,    5300,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 45
 --                8898,    7600,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 50
-                9257, 1126125,      tpz.craftRank.AMATEUR       -- Azure Leaf
+--                9257, 1126125,      tpz.craftRank.AMATEUR       -- Azure Leaf
         },
         [tpz.skill.BONECRAFT] =
         {
@@ -354,7 +354,7 @@ tpz.shop =
 --                8882,    4150,      tpz.craftRank.AMATEUR,      -- Bonecraft Kit 40
 --                8883,    5300,      tpz.craftRank.AMATEUR,      -- Bonecraft Kit 45
 --                8884,    7600,      tpz.craftRank.AMATEUR,      -- Bonecraft Kit 50
-                9255, 1126125,      tpz.craftRank.AMATEUR       -- Cyan Coral
+--                9255, 1126125,      tpz.craftRank.AMATEUR       -- Cyan Coral
         },
         [tpz.skill.LEATHERCRAFT] =
         {
@@ -382,7 +382,7 @@ tpz.shop =
 --                8868,    4150,      tpz.craftRank.AMATEUR,      -- Leathercraft Kit 40
 --                8869,    5300,      tpz.craftRank.AMATEUR,      -- Leathercraft Kit 45
 --                8870,    7600,      tpz.craftRank.AMATEUR,      -- Leathercraft Kit 50
-                9253, 1126125,      tpz.craftRank.AMATEUR       -- Synthetic Faulpie Leather
+--                9253, 1126125,      tpz.craftRank.AMATEUR       -- Synthetic Faulpie Leather
         },
         [tpz.skill.SMITHING] =
         {
@@ -414,7 +414,7 @@ tpz.shop =
 --                8826,    4150,      tpz.craftRank.AMATEUR,      -- Smithing Kit 40
 --                8827,    5300,      tpz.craftRank.AMATEUR,      -- Smithing Kit 45
 --                8828,    7600,      tpz.craftRank.AMATEUR,      -- Smithing Kit 50
-                9247, 1126125,      tpz.craftRank.AMATEUR       -- Niobium Ore
+--               9247, 1126125,      tpz.craftRank.AMATEUR       -- Niobium Ore
         }
     },
 
