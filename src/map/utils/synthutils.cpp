@@ -441,6 +441,10 @@ int32 doSynthSkillUp(CCharEntity* PChar)
 
             if (PChar->CraftContainer->getCraftType() == 1)  // If it's a desynth lower skill up rate
                 skillUpChance = skillUpChance / 2;
+            else if (PChar->CraftContainer->getQuantity(0) != SYNTHESIS_FAIL &&
+                baseDiff > 0 &&
+                charSkill <= 600)
+                skillUpChance = 1;
 
             double random = tpzrand::GetRandomNumber(1.);
             #ifdef _TPZ_SYNTH_DEBUG_MESSAGES_
@@ -491,8 +495,8 @@ int32 doSynthSkillUp(CCharEntity* PChar)
                         satier--;
                     }
                 }
-                if (skillUpAmount == 0)
-                    skillUpAmount += (PChar->CraftContainer->getQuantity(0) != SYNTHESIS_FAIL);
+
+
 
                 // Do craft amount multiplier
                 if (map_config.craft_amount_multiplier > 1)
@@ -503,6 +507,7 @@ int32 doSynthSkillUp(CCharEntity* PChar)
                         skillUpAmount = 9;
                     }
                 }
+
 
                 // Cap skill gain if character hits the current cap
                 if((skillUpAmount + charSkill) > maxSkill)
