@@ -185,6 +185,7 @@ public:
 
     nameflags_t				nameflags;						// флаги перед именем персонажа
     nameflags_t             menuConfigFlags;                // These flags are used for MenuConfig packets. Some nameflags values are duplicated.
+    uint32                  lastOnline {0};                 // UTC Unix Timestamp of the last time char zoned or logged out
     bool                    isNewPlayer();                  // Checks if new player bit is unset.
 
     profile_t				profile;						// профиль персонажа (все, что связывает города и персонажа)
@@ -209,6 +210,8 @@ public:
     uint8					m_WeaponSkills[32];
     questlog_t				m_questLog[MAX_QUESTAREA];		// список всех квестов
     missionlog_t			m_missionLog[MAX_MISSIONAREA];	// список миссий
+    eminencelog_t           m_eminenceLog;                  // Record of Eminence log
+    eminencecache_t         m_eminenceCache;                // Caching data for Eminence lookups
     assaultlog_t			m_assaultLog;					// список assault миссий
     campaignlog_t			m_campaignLog;					// список campaign миссий
     uint32					m_lastBcnmTimePrompt;			// the last message prompt in seconds
