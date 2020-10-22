@@ -315,7 +315,7 @@ tpz.shop =
                  915,    3600,   tpz.craftRank.JOURNEYMAN,      -- Toad Oil
                  931,    5000,    tpz.craftRank.CRAFTSMAN,      -- Cermet Chunk
                  944,    1035,    tpz.craftRank.CRAFTSMAN,      -- Venom Dust
---                8889,     300,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 5
+                8889,     300,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 5
 --                8890,     400,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 10
 --                8891,     650,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 15
 --                8892,    1050,      tpz.craftRank.AMATEUR,      -- Alchemy Kit 20
