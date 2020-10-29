@@ -622,57 +622,57 @@ INSERT INTO `synth_recipes` VALUES (5508,0,0,115,70,0,0,0,0,0,0,4098,4240,1346,4
 -- INSERT INTO `synth_recipes` VALUES (9901,1,0,255,0,0,0,0,0,0,0,4100,4242,15289,0,0,0,0,0,0,0,856,850,850,850,1,3,3,3,'Bolt Belt (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9902,1,0,255,0,0,0,0,0,0,0,4100,4242,17345,0,0,0,0,0,0,0,917,708,708,708,1,1,1,1,'Flute (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9903,1,0,255,0,0,0,0,0,0,0,4100,4242,16833,0,0,0,0,0,0,0,715,817,649,649,1,1,1,1,'Bronze Spear (desynth)');
-INSERT INTO `synth_recipes` VALUES (9904,1,0,54,0,0,0,0,0,0,0,4100,4242,17030,0,0,0,0,0,0,0,649,649,717,717,1,1,1,1,'Great Club (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9905,1,0,23,0,0,0,0,0,0,0,4100,4242,17051,0,0,0,0,0,0,0,841,713,713,713,1,1,1,1,'Yew Wand (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9906,1,0,102,0,0,0,0,0,0,0,4100,4242,17592,0,0,0,0,0,0,0,771,1228,1228,1225,1,4,4,4,'Kinkobo (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9907,1,0,11,0,0,0,0,0,0,0,4100,4242,12984,0,0,0,0,0,0,0,715,715,850,850,1,1,1,1,'Ash Clogs (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9908,1,0,19,0,0,0,0,0,0,0,4100,4242,17089,0,0,0,0,0,0,0,714,714,714,882,1,1,2,1,'Holly Staff (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9909,1,0,24,0,0,0,0,0,0,0,4100,4242,17154,0,0,0,0,0,0,0,850,820,820,820,1,1,1,1,'Wrapped Bow (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9910,1,0,46,0,0,0,0,0,0,0,4100,4242,17097,0,0,0,0,0,0,0,707,707,707,707,1,1,2,2,'Elm Pole (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9911,1,0,15,0,0,0,0,0,0,0,4100,4242,17152,0,0,0,0,0,0,0,817,712,712,712,4,1,1,1,'Shortbow (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9912,1,0,50,0,0,0,0,0,0,0,4100,4242,17523,0,0,0,0,0,0,0,651,711,711,711,1,1,1,1,'Quarterstaff (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9913,1,0,11,0,0,0,0,0,0,0,4100,4242,12290,0,0,0,0,0,0,0,708,650,708,708,1,1,2,2,'Maple Shield (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9904,1,0,54,0,0,0,0,0,0,0,4100,4242,17030,0,0,0,0,0,0,0,649,649,717,717,1,1,1,1,'Great Club (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9905,1,0,23,0,0,0,0,0,0,0,4100,4242,17051,0,0,0,0,0,0,0,841,713,713,713,1,1,1,1,'Yew Wand (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9906,1,0,102,0,0,0,0,0,0,0,4100,4242,17592,0,0,0,0,0,0,0,771,1228,1228,1225,1,4,4,4,'Kinkobo (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9907,1,0,11,0,0,0,0,0,0,0,4100,4242,12984,0,0,0,0,0,0,0,715,715,850,850,1,1,1,1,'Ash Clogs (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9908,1,0,19,0,0,0,0,0,0,0,4100,4242,17089,0,0,0,0,0,0,0,714,714,714,882,1,1,2,1,'Holly Staff (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9909,1,0,24,0,0,0,0,0,0,0,4100,4242,17154,0,0,0,0,0,0,0,850,820,820,820,1,1,1,1,'Wrapped Bow (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9910,1,0,46,0,0,0,0,0,0,0,4100,4242,17097,0,0,0,0,0,0,0,707,707,707,707,1,1,2,2,'Elm Pole (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9911,1,0,15,0,0,0,0,0,0,0,4100,4242,17152,0,0,0,0,0,0,0,817,712,712,712,4,1,1,1,'Shortbow (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9912,1,0,50,0,0,0,0,0,0,0,4100,4242,17523,0,0,0,0,0,0,0,651,711,711,711,1,1,1,1,'Quarterstaff (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9913,1,0,11,0,0,0,0,0,0,0,4100,4242,12290,0,0,0,0,0,0,0,708,650,708,708,1,1,2,2,'Maple Shield (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9914,1,0,255,0,0,0,0,0,0,0,4100,4242,17347,0,0,0,0,0,0,0,917,714,714,714,1,1,1,1,'Piccolo (desynth)');
 INSERT INTO `synth_recipes` VALUES (9915,1,0,99,0,0,0,0,0,0,0,4100,4242,17590,0,0,0,0,0,0,0,771,771,1228,1228,1,1,6,6,'Primate Staff (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9916,1,0,255,0,0,0,0,0,0,0,4100,4242,17101,0,0,0,0,0,0,0,720,720,720,720,2,2,2,2,'Mythic Pole (desynth)');
-INSERT INTO `synth_recipes` VALUES (9917,1,0,70,0,0,0,0,0,0,0,4100,4242,12359,0,0,0,0,0,0,0,1234,1234,1234,1234,4,6,6,6,'Hickory Shield (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9917,1,0,70,0,0,0,0,0,0,0,4100,4242,12359,0,0,0,0,0,0,0,1234,1234,1234,1234,4,6,6,6,'Hickory Shield (desynth)'); -- Level based on level to synth
 INSERT INTO `synth_recipes` VALUES (9918,1,0,34,0,0,0,0,0,0,0,4100,4242,12292,0,0,0,0,0,0,0,717,717,651,651,1,2,1,1,'Mahogany Shield (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9919,1,0,255,0,0,0,0,0,0,0,4100,4242,17292,0,0,0,0,0,0,0,715,718,819,819,1,1,1,1,'Long Boomerang (desynth)');
-INSERT INTO `synth_recipes` VALUES (9920,1,0,32,0,0,0,0,0,0,0,4100,4242,17052,0,0,0,0,0,0,0,710,710,847,847,1,1,1,1,'Chestnut Wand (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9921,1,0,51,0,0,0,0,0,0,0,4100,4242,17388,0,0,0,0,0,0,0,707,707,820,820,1,1,1,1,'Fastwater F. Rod (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9920,1,0,32,0,0,0,0,0,0,0,4100,4242,17052,0,0,0,0,0,0,0,710,710,847,847,1,1,1,1,'Chestnut Wand (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9921,1,0,51,0,0,0,0,0,0,0,4100,4242,17388,0,0,0,0,0,0,0,707,707,820,820,1,1,1,1,'Fastwater F. Rod (desynth)'); -- Level based on level to synth
 INSERT INTO `synth_recipes` VALUES (9922,1,0,59,0,0,0,0,0,0,0,4100,4242,17219,0,0,0,0,0,0,0,932,717,1226,1226,1,1,4,6,'Arbalest (desynth)');
-INSERT INTO `synth_recipes` VALUES (9923,1,0,79,0,0,0,0,0,0,0,4100,4242,17100,0,0,0,0,0,0,0,719,719,719,719,1,1,2,2,'Ebony Pole (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9924,1,0,67,0,0,0,0,0,0,0,4100,4242,16839,0,0,0,0,0,0,0,715,822,1228,1228,1,1,4,6,'Partisan (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9925,1,0,27,0,0,0,0,0,0,0,4100,4242,17354,0,0,0,0,0,0,0,927,927,927,927,2,2,2,2,'Harp (desynth)'); --Level based on level to synth, BGWiki reports HQ of only 1 whisker?
+INSERT INTO `synth_recipes` VALUES (9923,1,0,79,0,0,0,0,0,0,0,4100,4242,17100,0,0,0,0,0,0,0,719,719,719,719,1,1,2,2,'Ebony Pole (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9924,1,0,67,0,0,0,0,0,0,0,4100,4242,16839,0,0,0,0,0,0,0,715,822,1228,1228,1,1,4,6,'Partisan (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9925,1,0,27,0,0,0,0,0,0,0,4100,4242,17354,0,0,0,0,0,0,0,927,927,927,927,2,2,2,2,'Harp (desynth)'); -- Level based on level to synth, BGWiki reports HQ of only 1 whisker?
 INSERT INTO `synth_recipes` VALUES (9926,1,0,37,0,0,0,0,0,0,0,4100,4242,17348,0,0,0,0,0,0,0,917,917,716,716,1,1,1,1,'Traversiere (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9927,1,0,255,0,0,0,0,0,0,0,4100,4242,17117,0,0,0,0,0,0,0,714,714,714,788,1,1,1,1,'Hypno Staff (desynth)');
-INSERT INTO `synth_recipes` VALUES (9928,1,0,43,0,0,0,0,0,0,0,4100,4242,17218,0,0,0,0,0,0,0,927,716,716,716,1,1,1,1,'Zamburak (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9928,1,0,43,0,0,0,0,0,0,0,4100,4242,17218,0,0,0,0,0,0,0,927,716,716,716,1,1,1,1,'Zamburak (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9929,1,0,255,0,0,0,0,0,0,0,4100,4242,17170,0,0,0,0,0,0,0,712,816,816,816,1,3,3,3,'Speed Bow (desynth)');
-INSERT INTO `synth_recipes` VALUES (9930,1,0,74,0,0,0,0,0,0,0,4100,4242,17014,0,0,0,0,0,0,0,718,822,822,822,1,1,1,1,'Hume Fishing Rod (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9931,1,0,44,0,0,0,0,0,0,0,4100,4242,17040,0,0,0,0,0,0,0,716,716,716,716,1,1,1,1,'Warp Cudgel (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9932,1,0,68,0,0,0,0,0,0,0,4100,4242,17099,0,0,0,0,0,0,0,717,717,717,717,1,1,2,2,'Mahogany Pole (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9930,1,0,74,0,0,0,0,0,0,0,4100,4242,17014,0,0,0,0,0,0,0,718,822,822,822,1,1,1,1,'Hume Fishing Rod (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9931,1,0,44,0,0,0,0,0,0,0,4100,4242,17040,0,0,0,0,0,0,0,716,716,716,716,1,1,1,1,'Warp Cudgel (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9932,1,0,68,0,0,0,0,0,0,0,4100,4242,17099,0,0,0,0,0,0,0,717,717,717,717,1,1,2,2,'Mahogany Pole (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9933,1,0,255,0,0,0,0,0,0,0,4100,4242,17104,0,0,0,0,0,0,0,715,715,715,715,1,1,1,1,'Onion Staff (desynth)');
-INSERT INTO `synth_recipes` VALUES (9934,1,0,14,0,0,0,0,0,0,0,4100,4242,17050,0,0,0,0,0,0,0,712,712,712,846,1,1,1,1,'Willow Wand (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9935,1,0,100,0,0,0,0,0,0,0,4100,4242,17596,0,0,0,0,0,0,0,711,711,711,1229,1,2,2,6,'Steel-splitter (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9936,1,0,23,0,0,0,0,0,0,0,4100,4242,17353,0,0,0,0,0,0,0,708,927,927,927,1,1,2,2,'Maple Harp (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9937,1,0,93,0,0,0,0,0,0,0,4100,4242,17205,0,0,0,0,0,0,0,821,927,1620,720,1,1,1,2,'Gendawa (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9938,1,0,88,0,0,0,0,0,0,0,4100,4242,17221,0,0,0,0,0,0,0,718,927,654,654,1,1,1,1,'Rpt. Crossbow (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9939,1,0,58,0,0,0,0,0,0,0,4100,4242,17164,0,0,0,0,0,0,0,816,933,932,932,3,1,1,1,'War Bow (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9934,1,0,14,0,0,0,0,0,0,0,4100,4242,17050,0,0,0,0,0,0,0,712,712,712,846,1,1,1,1,'Willow Wand (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9935,1,0,100,0,0,0,0,0,0,0,4100,4242,17596,0,0,0,0,0,0,0,711,711,711,1229,1,2,2,6,'Steel-splitter (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9936,1,0,23,0,0,0,0,0,0,0,4100,4242,17353,0,0,0,0,0,0,0,708,927,927,927,1,1,2,2,'Maple Harp (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9937,1,0,93,0,0,0,0,0,0,0,4100,4242,17205,0,0,0,0,0,0,0,821,927,1620,720,1,1,1,2,'Gendawa (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9938,1,0,88,0,0,0,0,0,0,0,4100,4242,17221,0,0,0,0,0,0,0,718,927,654,654,1,1,1,1,'Rpt. Crossbow (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9939,1,0,58,0,0,0,0,0,0,0,4100,4242,17164,0,0,0,0,0,0,0,816,933,932,932,3,1,1,1,'War Bow (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9940,1,0,255,0,0,0,0,0,0,0,4100,4242,12316,0,0,0,0,0,0,0,708,650,807,809,1,1,1,1,'Fish Scale Shield (desynth)');
-INSERT INTO `synth_recipes` VALUES (9941,1,0,47,0,0,0,0,0,0,0,4100,4242,17053,0,0,0,0,0,0,0,718,845,845,845,1,1,1,1,'Rose Wand (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9941,1,0,47,0,0,0,0,0,0,0,4100,4242,17053,0,0,0,0,0,0,0,718,845,845,845,1,1,1,1,'Rose Wand (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9942,1,0,255,0,0,0,0,0,0,0,4100,4242,17349,0,0,0,0,0,0,0,917,792,792,792,1,1,1,1,'Faerie Piccolo (desynth)');
-INSERT INTO `synth_recipes` VALUES (9943,1,0,50,0,0,0,0,0,0,0,4100,4242,12406,0,0,0,0,0,0,0,716,716,716,716,1,1,1,1,'Coated Shield (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9944,1,0,65,0,0,0,0,0,0,0,4100,4242,17387,0,0,0,0,0,0,0,816,816,711,711,1,1,1,1,'Tarutaru F. Rod (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9943,1,0,50,0,0,0,0,0,0,0,4100,4242,12406,0,0,0,0,0,0,0,716,716,716,716,1,1,1,1,'Coated Shield (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9944,1,0,65,0,0,0,0,0,0,0,4100,4242,17387,0,0,0,0,0,0,0,816,816,711,711,1,1,1,1,'Tarutaru F. Rod (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9945,1,0,255,0,0,0,0,0,0,0,4100,4242,12338,0,0,0,0,0,0,0,930,717,809,809,1,1,1,1,'Frost Shield (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9946,1,0,255,0,0,0,0,0,0,0,4098,4240,2336,0,0,0,0,0,0,0,730,730,804,804,1,1,1,1,'Soulflayer Staff (desynth)');
-INSERT INTO `synth_recipes` VALUES (9947,1,0,74,0,0,0,0,0,0,0,4100,4242,12295,0,0,0,0,0,0,0,651,718,662,662,1,1,1,1,'Round Shield (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9948,1,0,16,0,0,0,0,0,0,0,4100,4242,17153,0,0,0,0,0,0,0,712,712,712,712,1,1,1,1,'Self Bow (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9947,1,0,74,0,0,0,0,0,0,0,4100,4242,12295,0,0,0,0,0,0,0,651,718,662,662,1,1,1,1,'Round Shield (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9948,1,0,16,0,0,0,0,0,0,0,4100,4242,17153,0,0,0,0,0,0,0,712,712,712,712,1,1,1,1,'Self Bow (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9949,1,0,255,0,0,0,0,0,0,0,4100,4242,17134,0,0,0,0,0,0,0,715,715,715,715,1,1,1,1,'Dolphin Staff (desynth)');
 INSERT INTO `synth_recipes` VALUES (9950,1,0,27,0,0,0,0,0,0,0,4100,4242,17076,0,0,0,0,0,0,0,712,712,712,712,1,1,1,1,'Earth Wand (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9951,1,0,255,0,0,0,0,0,0,0,4100,4242,17415,0,0,0,0,0,0,0,717,1226,1226,1226,1,6,6,6,'Shellbuster (desynth)');
-INSERT INTO `synth_recipes` VALUES (9952,1,0,6,0,0,0,0,0,0,0,4100,4242,17049,0,0,0,0,0,0,0,708,708,840,840,1,1,1,1,'Maple Wand (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9953,1,0,100,0,0,0,0,0,0,0,4100,4242,17569,0,0,0,0,0,0,0,711,711,711,1229,1,1,2,6,'Iron-splitter (desynth)'); --Level based on level to synth
-INSERT INTO `synth_recipes` VALUES (9954,1,0,18,0,0,0,0,0,0,0,4100,4242,12985,0,0,0,0,0,0,0,850,850,850,850,1,1,1,1,'Holly Clogs (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9952,1,0,6,0,0,0,0,0,0,0,4100,4242,17049,0,0,0,0,0,0,0,708,708,840,840,1,1,1,1,'Maple Wand (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9953,1,0,100,0,0,0,0,0,0,0,4100,4242,17569,0,0,0,0,0,0,0,711,711,711,1229,1,1,2,6,'Iron-splitter (desynth)'); -- Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (9954,1,0,18,0,0,0,0,0,0,0,4100,4242,12985,0,0,0,0,0,0,0,850,850,850,850,1,1,1,1,'Holly Clogs (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (9955,1,0,255,0,0,0,0,0,0,0,4100,4242,12338,0,0,0,0,0,0,0,809,930,851,717,1,1,1,1,'Frost Shield (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (9956,1,0,255,0,0,0,0,0,0,0,4100,4242,17356,0,0,0,0,0,0,0,927,927,717,797,1,1,1,1,'Lamia Harp (desynth)');
 INSERT INTO `synth_recipes` VALUES (10001,0,0,0,1,0,0,0,0,0,0,4096,4238,656,656,656,656,0,0,0,0,649,649,649,649,1,1,1,1,'Bronze Ingot');
@@ -1358,7 +1358,7 @@ INSERT INTO `synth_recipes` VALUES (19957,1,0,0,61,0,0,0,0,0,0,4100,4242,16796,0
 INSERT INTO `synth_recipes` VALUES (19961,1,0,0,59,0,0,0,0,0,0,4100,4242,14051,0,0,0,0,0,0,0,651,651,654,654,1,1,1,1,'Alumine Moufles (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (19962,1,0,0,255,0,0,0,0,0,0,4100,4242,16433,0,0,0,0,0,0,0,649,649,649,649,1,1,1,1,'Lgn. Knuckles (desynth)');
 INSERT INTO `synth_recipes` VALUES (19963,1,0,0,79,0,0,0,0,0,0,4100,4242,2161,0,0,0,0,0,0,0,649,2302,2302,2302,1,1,2,2,'Troll Vambrace (desynth)');
--- INSERT INTO `synth_recipes` VALUES (19964,1,0,0,255,0,0,0,0,0,0,4098,4240,1162,0,0,0,0,0,0,0,660,660,933,933,1,1,9,12,'Tonberry Lantern (desynth)'); --BGWiki lists level s "37~"
+-- INSERT INTO `synth_recipes` VALUES (19964,1,0,0,255,0,0,0,0,0,0,4098,4240,1162,0,0,0,0,0,0,0,660,660,933,933,1,1,9,12,'Tonberry Lantern (desynth)'); -- BGWiki lists level s "37~"
 -- INSERT INTO `synth_recipes` VALUES (19965,1,0,0,255,0,0,0,0,0,0,4100,4242,16575,0,0,0,0,0,0,0,744,1226,1226,1226,1,6,6,6,'Curtana (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (19966,1,0,0,255,0,0,0,0,0,0,4100,4242,16452,0,0,0,0,0,0,0,654,654,654,654,1,1,1,1,'Misericorde (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (19967,1,0,0,255,0,0,0,0,0,0,4100,4242,16412,0,0,0,0,0,0,0,894,1226,1226,1226,1,6,6,6,'Mythril Claws (desynth)');
@@ -2034,13 +2034,13 @@ INSERT INTO `synth_recipes` VALUES (29908,1,0,0,0,55,0,0,0,0,0,4100,4242,13483,0
 INSERT INTO `synth_recipes` VALUES (29909,1,0,0,0,61,0,0,0,0,0,4100,4242,12801,0,0,0,0,0,0,0,851,851,653,653,1,1,1,2,'Mythril Cuisses (desynth)');
 INSERT INTO `synth_recipes` VALUES (29910,1,0,0,0,55,0,0,0,0,0,4100,4242,13479,0,0,0,0,0,0,0,811,811,653,653,1,1,1,2,'Ametrine Ring (desynth)');
 INSERT INTO `synth_recipes` VALUES (29911,1,0,0,0,27,0,0,0,0,0,4100,4242,12495,0,0,0,0,0,0,0,744,744,744,744,1,1,1,1,'Silver Hairpin (desynth)');
-INSERT INTO `synth_recipes` VALUES (29912,1,0,0,0,25,0,0,0,0,0,4100,4242,13334,0,0,0,0,0,0,0,795,795,744,744,1,1,1,2,'Lapis Laz. Earring (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (29912,1,0,0,0,25,0,0,0,0,0,4100,4242,13334,0,0,0,0,0,0,0,795,795,744,744,1,1,1,2,'Lapis Laz. Earring (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (29913,1,0,0,0,255,0,0,0,0,0,4100,4242,12307,0,0,0,0,0,0,0,715,651,1228,1228,2,2,6,6,'Heater Shield (desynth)');
 INSERT INTO `synth_recipes` VALUES (29914,1,0,0,0,35,0,0,0,0,0,4100,4242,13474,0,0,0,0,0,0,0,799,799,744,744,1,1,1,2,'Onyx Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29915,1,0,0,0,255,0,0,0,0,0,4100,4242,12303,0,0,0,0,0,0,0,651,714,914,745,1,1,1,1,'Gold Buckler (desynth)');
 INSERT INTO `synth_recipes` VALUES (29916,1,0,0,0,35,0,0,0,0,0,4100,4242,13470,0,0,0,0,0,0,0,809,809,744,744,1,1,1,2,'Clear Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29917,1,0,0,0,255,0,0,0,0,0,4100,4242,17986,0,0,0,0,0,0,0,1234,1235,744,744,6,6,1,1,'Spark Baselard (desynth)');
-INSERT INTO `synth_recipes` VALUES (29918,1,0,0,0,35,0,0,0,0,0,4100,4242,13472,0,0,0,0,0,0,0,795,795,744,744,1,1,1,2,'Lapis Lazuli Ring (desynth)'); --Level based on level to synth
+INSERT INTO `synth_recipes` VALUES (29918,1,0,0,0,35,0,0,0,0,0,4100,4242,13472,0,0,0,0,0,0,0,795,795,744,744,1,1,1,2,'Lapis Lazuli Ring (desynth)'); -- Level based on level to synth
 -- INSERT INTO `synth_recipes` VALUES (29919,1,0,0,0,255,0,0,0,0,0,4100,4242,13465,0,0,0,0,0,0,0,650,650,650,650,2,2,2,2,'Brass Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29920,1,0,0,0,255,0,0,0,0,0,4100,4242,17514,0,0,0,0,0,0,0,894,1235,653,653,1,6,1,1,'Hydro Claws (desynth)');
 INSERT INTO `synth_recipes` VALUES (29921,1,0,0,0,25,0,0,0,0,0,4100,4242,13330,0,0,0,0,0,0,0,806,806,744,744,1,1,1,2,'Tml. Earring (desynth)');
@@ -2056,7 +2056,7 @@ INSERT INTO `synth_recipes` VALUES (29928,1,0,0,0,35,0,0,0,0,0,4100,4242,13443,0
 INSERT INTO `synth_recipes` VALUES (29931,1,0,0,0,55,0,0,0,0,0,4100,4242,13482,0,0,0,0,0,0,0,793,793,653,653,1,1,1,2,'Black Ring (desynth)');
 INSERT INTO `synth_recipes` VALUES (29932,1,0,0,0,55,0,0,0,0,0,4100,4242,13477,0,0,0,0,0,0,0,790,790,653,653,1,1,1,2,'Garnet Ring (desynth)');
 INSERT INTO `synth_recipes` VALUES (29933,1,0,0,0,35,0,0,0,0,0,4100,4242,13471,0,0,0,0,0,0,0,800,800,744,744,1,1,1,2,'Amethyst Ring (desynth)');
-INSERT INTO `synth_recipes` VALUES (29934,1,0,0,0,12,0,0,0,0,0,4100,4242,16641,0,0,0,0,0,0,0,715,649,649,650,1,1,2,1,'Brass Axe (desynth)'); --BGWiki reports the brass ingot as a second HQ1 result, I assume it's a typo
+INSERT INTO `synth_recipes` VALUES (29934,1,0,0,0,12,0,0,0,0,0,4100,4242,16641,0,0,0,0,0,0,0,715,649,649,650,1,1,2,1,'Brass Axe (desynth)'); -- BGWiki reports the brass ingot as a second HQ1 result, I assume it's a typo
 -- INSERT INTO `synth_recipes` VALUES (29935,1,0,0,0,255,0,0,0,0,0,4100,4242,16842,0,0,0,0,0,0,0,715,822,1228,745,1,1,6,1,'Golden Spear (desynth)');
 INSERT INTO `synth_recipes` VALUES (29936,1,0,0,0,25,0,0,0,0,0,4100,4242,13336,0,0,0,0,0,0,0,799,799,744,744,1,1,1,2,'Onyx Earring (desynth)');
 INSERT INTO `synth_recipes` VALUES (29937,1,0,0,0,25,0,0,0,0,0,4100,4242,13335,0,0,0,0,0,0,0,814,814,744,744,1,1,1,2,'Amber Earring (desynth)');
@@ -2076,14 +2076,14 @@ INSERT INTO `synth_recipes` VALUES (29943,1,0,0,0,17,0,0,0,0,0,4100,4242,12497,0
 INSERT INTO `synth_recipes` VALUES (29951,1,0,0,0,55,0,0,0,0,0,4100,4242,13478,0,0,0,0,0,0,0,808,808,653,653,1,1,1,2,'Goshenite Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29952,1,0,0,0,255,0,0,0,0,0,4100,4242,17399,0,0,0,0,0,0,0,648,818,818,818,3,2,2,2,'Sabiki Rig (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29953,1,0,0,0,255,0,0,0,0,0,4100,4242,12673,0,0,0,0,0,0,0,817,850,653,1228,6,4,1,6,'Mythril Gauntlets (desynth)');
-INSERT INTO `synth_recipes` VALUES (29954,1,0,0,0,48,0,0,0,0,0,4100,4242,12426,0,0,0,0,0,0,0,648,850,850,850,1,1,1,1,'Banded Helm (desynth)'); --BGWiki desynth yield incomplete, but does not contradict this
+INSERT INTO `synth_recipes` VALUES (29954,1,0,0,0,48,0,0,0,0,0,4100,4242,12426,0,0,0,0,0,0,0,648,850,850,850,1,1,1,1,'Banded Helm (desynth)'); -- BGWiki desynth yield incomplete, but does not contradict this
 -- INSERT INTO `synth_recipes` VALUES (29955,1,0,0,0,255,0,0,0,0,0,4100,4242,13352,0,0,0,0,0,0,0,746,786,786,786,2,1,1,1,'Ruby Earring (desynth)');
 INSERT INTO `synth_recipes` VALUES (29956,1,0,0,0,7,0,0,0,0,0,4100,4242,12496,0,0,0,0,0,0,0,648,648,648,648,1,1,1,1,'Copper Hairpin (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29957,1,0,0,0,255,0,0,0,0,0,4100,4242,12301,0,0,0,0,0,0,0,653,653,653,653,1,1,1,1,'Buckler (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29958,1,0,0,0,255,0,0,0,0,0,4100,4242,13209,0,0,0,0,0,0,0,744,744,744,744,4,4,4,4,'Chain Belt (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29959,1,0,0,0,255,0,0,0,0,0,4100,4242,13144,0,0,0,0,0,0,0,653,653,653,653,3,3,3,3,'Wing Gorget (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29960,1,0,0,0,255,0,0,0,0,0,4100,4242,17036,0,0,0,0,0,0,0,1226,653,653,653,10,2,2,2,'Mythril Mace (desynth)');
--- INSERT INTO `synth_recipes` VALUES (29961,1,0,0,0,255,0,0,0,0,0,4100,4242,2165,0,0,0,0,0,0,0,1233,1225,790,786,1,1,1,1,'Qutrub Gorget (desynth)'); --BGWiki reports level as "<60"
+-- INSERT INTO `synth_recipes` VALUES (29961,1,0,0,0,255,0,0,0,0,0,4100,4242,2165,0,0,0,0,0,0,0,1233,1225,790,786,1,1,1,1,'Qutrub Gorget (desynth)'); -- BGWiki reports level as "<60"
 -- INSERT INTO `synth_recipes` VALUES (29962,1,0,0,0,255,0,0,0,0,0,4100,4242,13485,0,0,0,0,0,0,0,745,745,745,745,1,1,1,1,'Sun Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29963,1,0,0,0,255,0,0,0,0,0,4100,4242,12809,0,0,0,0,0,0,0,744,819,851,651,2,3,2,4,'Silver Hose (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29964,1,0,0,0,255,0,0,0,0,0,4100,4242,16962,0,0,0,0,0,0,0,852,657,823,745,1,1,1,1,'Ashura (desynth)');
@@ -2650,7 +2650,7 @@ INSERT INTO `synth_recipes` VALUES (35513,0,0,0,0,0,118,0,0,0,0,4099,4241,1712,3
 -- INSERT INTO `synth_recipes` VALUES (35523,0,2014,0,0,255,255,0,0,0,0,4102,4244,9062,9064,9245,9840,9844,9845,9845,9866,22036,22037,22038,22038,1,1,1,1,'Bagua Wand');
 INSERT INTO `synth_recipes` VALUES (39901,1,0,0,0,0,11,0,0,0,0,4100,4242,12456,0,0,0,0,0,0,0,817,817,817,817,3,4,5,6,'Hachimaki (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39902,1,0,0,0,0,255,0,0,0,0,4100,4242,12713,0,0,0,0,0,0,0,706,817,818,818,1,1,6,6,'Cotton Tekko (desynth)');
--- INSERT INTO `synth_recipes` VALUES (39903,1,0,0,0,0,255,0,0,0,0,4098,4240,2153,0,0,0,0,0,0,0,2288,1155,1888,2305,1,1,1,1,'Qiqirn Sandbag (desynth)'); --BGWiki has no level data, but yield matches
+-- INSERT INTO `synth_recipes` VALUES (39903,1,0,0,0,0,255,0,0,0,0,4098,4240,2153,0,0,0,0,0,0,0,2288,1155,1888,2305,1,1,1,1,'Qiqirn Sandbag (desynth)'); -- BGWiki has no level data, but yield matches
 INSERT INTO `synth_recipes` VALUES (39904,1,0,0,0,0,30,0,0,0,0,4100,4242,17405,0,0,0,0,0,0,0,891,840,937,937,1,1,1,1,'Fly Lure (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39905,1,0,0,0,0,255,0,0,0,0,4100,4242,12504,0,0,0,0,0,0,0,932,821,821,821,1,1,1,1,'Rainbow Headband (desynth)');
 INSERT INTO `synth_recipes` VALUES (39906,1,0,0,0,0,12,0,0,0,0,4100,4242,12712,0,0,0,0,0,0,0,706,817,817,817,1,2,5,6,'Tekko (desynth)');
@@ -2667,7 +2667,7 @@ INSERT INTO `synth_recipes` VALUES (39909,1,0,0,0,0,94,0,0,0,0,4100,4242,14301,0
 INSERT INTO `synth_recipes` VALUES (39917,1,0,0,0,0,27,0,0,0,0,4100,4242,13204,0,0,0,0,0,0,0,817,818,818,818,1,4,5,6,'Heko Obi (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39918,1,0,0,0,0,255,0,0,0,0,4100,4242,14297,0,0,0,0,0,0,0,819,820,820,820,3,6,6,6,'Field Hose (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39919,1,0,0,0,0,255,0,0,0,0,4100,4242,12586,0,0,0,0,0,0,0,817,819,819,819,1,9,9,9,'Soil Gi (desynth)');
--- INSERT INTO `synth_recipes` VALUES (39920,1,0,0,0,0,255,0,0,0,0,4100,4242,13206,0,0,0,0,0,0,0,823,823,823,823,1,1,1,1,'Gold Obi (desynth)'); --BGWiki has no level data, but yield matches
+-- INSERT INTO `synth_recipes` VALUES (39920,1,0,0,0,0,255,0,0,0,0,4100,4242,13206,0,0,0,0,0,0,0,823,823,823,823,1,1,1,1,'Gold Obi (desynth)'); -- BGWiki has no level data, but yield matches
 INSERT INTO `synth_recipes` VALUES (39921,1,0,0,0,0,98,0,0,0,0,4100,4242,14196,0,0,0,0,0,0,0,819,848,853,821,3,1,1,4,'Dance Shoes (desynth)');
 INSERT INTO `synth_recipes` VALUES (39922,1,0,0,0,0,5,0,0,0,0,4100,4242,12728,0,0,0,0,0,0,0,817,768,818,818,3,2,3,4,'Cuffs (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39923,1,0,0,0,0,255,0,0,0,0,4100,4242,14299,0,0,0,0,0,0,0,850,816,851,1228,1,4,1,4,'Rst. Hakama (desynth)');
@@ -2690,20 +2690,20 @@ INSERT INTO `synth_recipes` VALUES (39937,1,0,0,0,0,17,0,0,0,0,4100,4242,12977,0
 -- INSERT INTO `synth_recipes` VALUES (39940,1,0,0,0,0,255,0,0,0,0,4100,4242,12847,0,0,0,0,0,0,0,816,855,1228,1228,1,1,4,4,'Yasha Hakama (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39941,1,0,0,0,0,255,0,0,0,0,4100,4242,14078,0,0,0,0,0,0,0,816,823,821,821,3,1,3,3,'Errant Cuffs (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39942,1,0,0,0,0,255,0,0,0,0,4100,4242,1639,0,0,0,0,0,0,0,818,816,823,823,6,1,1,1,'Corse Robe (desynth)');
-INSERT INTO `synth_recipes` VALUES (39943,1,0,0,0,0,92,0,0,0,0,4100,4242,14178,0,0,0,0,0,0,0,816,855,855,855,1,2,2,2,'Rasetsu Sune-Ate (desynth)'); --BG yield data incomplete, but does not contradict
-INSERT INTO `synth_recipes` VALUES (39944,1,0,0,0,0,87,0,0,0,0,4100,4242,12605,0,0,0,0,0,0,0,816,821,821,821,1,1,1,1,'Noble\'s Tunic (desynth)'); --BG Yield data incomplete, but does not contradict
+INSERT INTO `synth_recipes` VALUES (39943,1,0,0,0,0,92,0,0,0,0,4100,4242,14178,0,0,0,0,0,0,0,816,855,855,855,1,2,2,2,'Rasetsu Sune-Ate (desynth)'); -- BG yield data incomplete, but does not contradict
+INSERT INTO `synth_recipes` VALUES (39944,1,0,0,0,0,87,0,0,0,0,4100,4242,12605,0,0,0,0,0,0,0,816,821,821,821,1,1,1,1,'Noble\'s Tunic (desynth)'); -- BG Yield data incomplete, but does not contradict
 -- INSERT INTO `synth_recipes` VALUES (39945,1,0,0,0,0,255,0,0,0,0,4100,4242,12468,0,0,0,0,0,0,0,816,842,842,842,3,1,1,1,'Green Beret (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39946,1,0,0,0,0,255,0,0,0,0,4100,4242,13113,0,0,0,0,0,0,0,929,816,816,816,1,9,9,9,'Black Neckerchief (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39947,1,0,0,0,0,255,0,0,0,0,4100,4242,12588,0,0,0,0,0,0,0,816,651,651,651,5,1,1,1,'Shinobi Gi (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39948,1,0,0,0,0,255,0,0,0,0,4100,4242,13910,0,0,0,0,0,0,0,816,1228,1228,1228,4,12,12,12,'Roshi Jinpachi (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39949,1,0,0,0,0,255,0,0,0,0,4100,4242,12867,0,0,0,0,0,0,0,820,820,820,820,3,3,3,3,'White Slacks (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39950,1,0,0,0,0,255,0,0,0,0,4100,4242,13795,0,0,0,0,0,0,0,816,652,821,821,3,2,4,4,'Arhat\'s Gi (desynth)');
--- INSERT INTO `synth_recipes` VALUES (39951,0,0,0,0,0,255,0,0,0,0,4099,4241,2296,2296,2296,0,0,0,0,0,2274,2274,2274,2274,1,1,1,1,'Mohbwa Cloth'); --Not a desynth, incorrect ID?
+-- INSERT INTO `synth_recipes` VALUES (39951,0,0,0,0,0,255,0,0,0,0,4099,4241,2296,2296,2296,0,0,0,0,0,2274,2274,2274,2274,1,1,1,1,'Mohbwa Cloth'); -- Not a desynth, incorrect ID?
 -- INSERT INTO `synth_recipes` VALUES (39952,1,0,0,0,0,255,0,0,0,0,4100,4242,2227,0,0,0,0,0,0,0,2304,2304,2304,2304,4,4,4,4,'Mamool Ja Collar (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39953,1,0,0,0,0,255,0,0,0,0,4100,4242,1631,0,0,0,0,0,0,0,818,818,818,818,8,8,8,8,'Moblin Armor (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39954,1,0,0,0,0,255,0,0,0,0,4100,4242,12476,0,0,0,0,0,0,0,822,816,816,816,1,6,6,6,'Silk Hat (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39955,1,0,0,0,0,255,0,0,0,0,4100,4242,13577,0,0,0,0,0,0,0,816,822,820,820,2,1,4,4,'Black Cape (desynth)');
--- INSERT INTO `synth_recipes` VALUES (39956,1,0,0,0,0,87,0,0,0,0,4100,4242,14023,0,0,0,0,0,0,0,816,819,1228,1228,6,1,12,12,'Arhat\'s Tekko (desynth)'); --BGWiki yield is VERY different
+-- INSERT INTO `synth_recipes` VALUES (39956,1,0,0,0,0,87,0,0,0,0,4100,4242,14023,0,0,0,0,0,0,0,816,819,1228,1228,6,1,12,12,'Arhat\'s Tekko (desynth)'); -- BGWiki yield is VERY different
 -- INSERT INTO `synth_recipes` VALUES (39957,1,0,0,0,0,255,0,0,0,0,4100,4242,15390,0,0,0,0,0,0,0,1713,831,831,831,3,1,1,1,'Femina Subligar (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39958,1,0,0,0,0,255,0,0,0,0,4100,4242,15389,0,0,0,0,0,0,0,1713,831,831,831,3,1,1,1,'Vir Subligar (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (39959,1,0,0,0,0,255,0,0,0,0,4100,4242,12859,0,0,0,0,0,0,0,820,650,822,816,7,1,1,2,'Velvet Slops (desynth)');
@@ -3178,12 +3178,12 @@ INSERT INTO `synth_recipes` VALUES (49923,1,0,0,0,0,0,30,0,0,0,4100,4242,12826,0
 -- INSERT INTO `synth_recipes` VALUES (49930,1,0,0,0,0,0,255,0,0,0,4100,4242,14846,0,0,0,0,0,0,0,816,855,1680,1680,1,1,1,1,'Sha\'ir Gages (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (49931,1,0,0,0,0,0,255,0,0,0,4100,4242,14323,0,0,0,0,0,0,0,850,819,819,819,1,5,5,5,'Noct Brais (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (49932,1,0,0,0,0,0,255,0,0,0,4100,4242,13192,0,0,0,0,0,0,0,850,651,651,651,1,2,2,2,'Leather Belt (desynth)');
-INSERT INTO `synth_recipes` VALUES (49933,1,0,0,0,0,0,255,0,0,0,4100,4242,13939,0,0,0,0,0,0,0,850,851,851,851,1,1,1,1,'Austere Hat (desynth)'); --BG data incomplete but does not contradict
+INSERT INTO `synth_recipes` VALUES (49933,1,0,0,0,0,0,255,0,0,0,4100,4242,13939,0,0,0,0,0,0,0,850,851,851,851,1,1,1,1,'Austere Hat (desynth)'); -- BG data incomplete but does not contradict
 -- INSERT INTO `synth_recipes` VALUES (49934,1,0,0,0,0,0,255,0,0,0,4100,4242,12703,0,0,0,0,0,0,0,850,851,506,506,2,1,1,1,'Coeurl Gloves (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (49935,1,0,0,0,0,0,255,0,0,0,4100,4242,12440,0,0,0,0,0,0,0,850,850,850,850,1,1,1,1,'Leather Bandana (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (49936,1,0,0,0,0,0,255,0,0,0,4100,4242,13704,0,0,0,0,0,0,0,850,506,1117,1117,1,1,1,1,'Ogre Mask (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (49937,1,0,0,0,0,0,255,0,0,0,4100,4242,13592,0,0,0,0,0,0,0,817,852,869,869,1,1,1,1,'Lizard Mantle (desynth)');
-INSERT INTO `synth_recipes` VALUES (49938,1,0,0,0,0,0,255,0,0,0,4100,4242,13203,0,0,0,0,0,0,0,850,924,924,924,1,1,1,1,'Barbarian\'s Belt (desynth)'); --BG data incomplete but does not contradict
+INSERT INTO `synth_recipes` VALUES (49938,1,0,0,0,0,0,255,0,0,0,4100,4242,13203,0,0,0,0,0,0,0,850,924,924,924,1,1,1,1,'Barbarian\'s Belt (desynth)'); -- BG data incomplete but does not contradict
 -- INSERT INTO `synth_recipes` VALUES (49939,1,0,0,0,0,0,255,0,0,0,4100,4242,13705,0,0,0,0,0,0,0,850,506,1117,849,1,2,1,1,'Ogre Jerkin (desynth)');
 INSERT INTO `synth_recipes` VALUES (49940,1,0,0,0,0,0,62,0,0,0,4100,4242,13546,0,0,0,0,0,0,0,855,855,855,855,1,1,1,1,'Hard Leather Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (49941,1,0,0,0,0,0,255,0,0,0,4100,4242,13591,0,0,0,0,0,0,0,820,820,820,820,1,1,1,1,'Behemoth Mantle (desynth)');
@@ -3615,7 +3615,7 @@ INSERT INTO `synth_recipes` VALUES (59946,1,0,0,0,0,0,0,52,0,0,4100,4242,17257,0
 -- INSERT INTO `synth_recipes` VALUES (59948,1,0,0,0,0,0,0,255,0,0,4100,4242,14426,0,0,0,0,0,0,0,816,816,816,816,1,1,1,1,'Shade Harness (desynth)');
 INSERT INTO `synth_recipes` VALUES (59949,1,0,0,0,0,0,0,57,0,0,4100,4242,16794,0,0,0,0,0,0,0,817,882,893,893,3,1,1,1,'Bone Scythe (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (59950,1,0,0,0,0,0,0,255,0,0,4100,4242,13459,0,0,0,0,0,0,0,864,895,895,895,1,1,1,1,'Horn Ring (desynth)');
--- INSERT INTO `synth_recipes` VALUES (59951,1,0,0,255,0,0,0,255,0,0,4100,4242,16409,0,0,0,0,0,0,0,649,880,880,855,1,2,3,1,'Lynx Baghnakhs (desynth)'); --no level data
+-- INSERT INTO `synth_recipes` VALUES (59951,1,0,0,255,0,0,0,255,0,0,4100,4242,16409,0,0,0,0,0,0,0,649,880,880,855,1,2,3,1,'Lynx Baghnakhs (desynth)'); -- no level data
 INSERT INTO `synth_recipes` VALUES (59952,1,0,0,0,0,0,0,96,0,0,4100,4242,14186,0,0,0,0,0,0,0,866,866,1629,1629,1,1,1,1,'Dragon Leggings (desynth)');
 INSERT INTO `synth_recipes` VALUES (60001,0,0,0,0,0,0,0,0,1,0,4099,4241,3885,3886,3887,0,0,0,0,0,426,426,426,426,1,1,1,1,'Orchestrion');
 INSERT INTO `synth_recipes` VALUES (60002,0,0,0,0,0,0,0,0,1,0,4099,4241,4216,10875,0,0,0,0,0,0,26728,26728,26728,26728,1,1,1,1,'Frosty Cap');
@@ -4704,7 +4704,7 @@ INSERT INTO `synth_recipes` VALUES (75504,0,0,0,0,0,0,0,0,0,112,4096,4238,617,89
 -- -----------
 -- RECIPES END
 
--- INSERT INTO `synth_recipes` VALUES (ID,Desynth,KeyItem,WD,SM,GO,CL,LE,BO,AL,CK,Crystal,HQCrystal,I1,I2,I3,I4,I5,I6,I7,I8,R1,R2,R3,R4,Q1,Q2,Q3,Q4,ResultName); -- template
+-- INSERT INTO `synth_recipes` VALUES (ID,Desynth,KeyItem,WD,SM,GO,CL,LE,BO,AL,CK,Crystal,HQCrystal,I1,I2,I3,I4,I5,I6,I7,I8,R1,R2,R3,R4,Q1,Q2,Q3,Q4,ResultName); --  template
 -- crystals = fire(4096,4238) ice(4097,4239) wind(4098,4240) earth(4099,4241) lightning(4100,4242) water(4101,4243) light(4102,4244) dark(4103,4245)
 
 /*!40000 ALTER TABLE `synth_recipes` ENABLE KEYS */;
