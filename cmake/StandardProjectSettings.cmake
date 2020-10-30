@@ -29,7 +29,7 @@ if(ENABLE_IPO)
   if(result)
     set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
   else()
-    message(SEND_ERROR "IPO is not supported: ${output}")
+    message(WARNING "IPO is not supported: ${output}")
   endif()
 endif()
 
@@ -46,7 +46,14 @@ if(MSVC)
         /MP # Build with Multiple Processes
     )
 
-    if(CMAKE_CONFIGURATION_TYPES STREQUAL Release)
+    if(CMAKE_CONFIGURATION_TYPES STREQUAL Debug)
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /INCREMENTAL /SAFESEH:NO")
+        list(APPEND FLAGS_AND_DEFINES
+            # TODO: Restore old flag
+            # /ZI # Omit Default Library Name
+            /GR # Enable RTTI
+        )
+    else()
         set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /INCREMENTAL:NO /LTCG /OPT:REF /OPT:ICF")
         list(APPEND FLAGS_AND_DEFINES
             /Oi # Generate Intrinsic Functions
@@ -54,19 +61,13 @@ if(MSVC)
             /Gy # Enable Function Level Linking
             /TP # C++ Source Files
         )
-    else()
-        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /INCREMENTAL /SAFESEH:NO")
-        list(APPEND FLAGS_AND_DEFINES
-            /ZI # Omit Default Library Name
-            /GR # Enable RTTI
-        )
     endif()
 
     link_libraries(WS2_32 dbghelp)
 endif()
 
 if(UNIX)
-
+    link_libraries(dl)
 endif()
 
 # TODO: These should be applied on a per-target level, not globally like this!
