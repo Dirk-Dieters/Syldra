@@ -81,14 +81,14 @@ WEAPON_SKILL_POWER  = 1.000 -- Multiplies damage dealt by Weapon Skills.
 WEAPON_SKILL_POINTS = 1.000 -- Multiplies points earned during weapon unlocking.
 USE_ADOULIN_WEAPON_SKILL_CHANGES = true -- true/false. Change to toggle new Adoulin weapon skill damage calculations
 
-HARVESTING_BREAK_CHANCE = 33 -- % chance for the sickle to break during harvesting.  Set between 0 and 100.
-EXCAVATION_BREAK_CHANCE = 33 -- % chance for the pickaxe to break during excavation.  Set between 0 and 100.
-LOGGING_BREAK_CHANCE    = 33 -- % chance for the hatchet to break during logging.  Set between 0 and 100.
-MINING_BREAK_CHANCE     = 33 -- % chance for the pickaxe to break during mining.  Set between 0 and 100.
-HARVESTING_RATE         = 100 -- % chance to recieve an item from haresting.  Set between 0 and 100.
-EXCAVATION_RATE         = 100 -- % chance to recieve an item from excavation.  Set between 0 and 100.
-LOGGING_RATE            = 100 -- % chance to recieve an item from logging.  Set between 0 and 100.
-MINING_RATE             = 100 -- % chance to recieve an item from mining.  Set between 0 and 100.
+HARVESTING_BREAK_CHANCE = 15 -- % chance for the sickle to break during harvesting.  Set between 0 and 100.
+EXCAVATION_BREAK_CHANCE = 15 -- % chance for the pickaxe to break during excavation.  Set between 0 and 100.
+LOGGING_BREAK_CHANCE    = 15 -- % chance for the hatchet to break during logging.  Set between 0 and 100.
+MINING_BREAK_CHANCE     = 15 -- % chance for the pickaxe to break during mining.  Set between 0 and 100.
+HARVESTING_RATE         = 50 -- % chance to recieve an item from haresting.  Set between 0 and 100.
+EXCAVATION_RATE         = 50 -- % chance to recieve an item from excavation.  Set between 0 and 100.
+LOGGING_RATE            = 50 -- % chance to recieve an item from logging.  Set between 0 and 100.
+MINING_RATE             = 50 -- % chance to recieve an item from mining.  Set between 0 and 100.
 DIGGING_RATE            = 85 -- % chance to receive an item from chocbo digging during favorable weather.  Set between 0 and 100.
 
 HEALING_TP_CHANGE       = -100 -- Change in TP for each healing tick. Default is -100
@@ -111,12 +111,12 @@ NM_LOTTERYCHANCE = 1.0
 NM_LOTTERYCOOLDOWN = 1.0
 
 -- DYNAMIS SETTINGS
-BETWEEN_2DYNA_WAIT_TIME = 24       -- Hours before player can re-enter Dynamis. Default is 1 Earthday (24 hours).
-DYNA_MIDNIGHT_RESET = true     -- if true, makes the wait time count by number of server midnights instead of full 24 hour intervals
-DYNA_LEVEL_MIN = 65       -- level min for entering in Dynamis
-TIMELESS_HOURGLASS_COST = 500000   -- refund for the timeless hourglass for Dynamis.
-PRISMATIC_HOURGLASS_COST = 50000    -- cost of the prismatic hourglass for Dynamis.
-CURRENCY_EXCHANGE_RATE = 100      -- X Tier 1 ancient currency -> 1 Tier 2, and so on.  Certain values may conflict with shop items.  Not designed to exceed 198.
+    BETWEEN_2DYNA_WAIT_TIME = 24       -- Hours before player can re-enter Dynamis. Default is 1 Earthday (24 hours).
+        DYNA_MIDNIGHT_RESET = true     -- if true, makes the wait time count by number of server midnights instead of full 24 hour intervals
+             DYNA_LEVEL_MIN = 65       -- level min for entering in Dynamis
+    TIMELESS_HOURGLASS_COST = 500000   -- refund for the timeless hourglass for Dynamis.
+   PRISMATIC_HOURGLASS_COST = 50000    -- cost of the prismatic hourglass for Dynamis.
+     CURRENCY_EXCHANGE_RATE = 100      -- X Tier 1 ancient currency -> 1 Tier 2, and so on.  Certain values may conflict with shop items.  Not designed to exceed 198.
 RELIC_2ND_UPGRADE_WAIT_TIME = 7200     -- wait time for 2nd relic upgrade (stage 2 -> stage 3) in seconds. 7200s = 2 hours.
 RELIC_3RD_UPGRADE_WAIT_TIME = 3600     -- wait time for 3rd relic upgrade (stage 3 -> stage 4) in seconds. 3600s = 1 hour.
 FREE_COP_DYNAMIS = 0  -- Authorize player to entering inside COP Dynamis without completing COP mission ( 1 = enable 0= disable)
