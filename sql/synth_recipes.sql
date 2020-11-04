@@ -2026,14 +2026,14 @@ INSERT INTO `synth_recipes` VALUES (25514,0,0,0,0,118,0,0,0,0,0,4096,4238,3323,8
 -- INSERT INTO `synth_recipes` VALUES (29901,1,0,0,0,255,0,0,0,0,0,4100,4242,13473,0,0,0,0,0,0,0,814,744,744,744,1,2,2,2,'Amber Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29902,1,0,0,0,255,0,0,0,0,0,4100,4242,16521,0,0,0,0,0,0,0,652,745,810,810,2,1,1,1,'Rapier (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29903,1,0,0,0,255,0,0,0,0,0,4100,4242,13317,0,0,0,0,0,0,0,792,653,653,653,1,2,2,2,'Pearl Earring (desynth)');
--- INSERT INTO `synth_recipes` VALUES (29904,1,0,0,0,255,0,0,0,0,0,4100,4242,12494,0,0,0,0,0,0,0,745,745,745,745,1,1,1,1,'Gold Hairpin (desynth)');
+INSERT INTO `synth_recipes` VALUES (29904,1,0,0,0,58,0,0,0,0,0,4100,4242,12494,0,0,0,0,0,0,0,745,745,745,745,1,1,1,1,'Gold Hairpin (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29905,1,0,0,0,255,0,0,0,0,0,4100,4242,13481,0,0,0,0,0,0,0,815,653,653,653,1,2,2,2,'Sphene Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29906,1,0,0,0,255,0,0,0,0,0,4100,4242,13476,0,0,0,0,0,0,0,788,653,653,653,1,2,2,2,'Peridot Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29907,1,0,0,0,255,0,0,0,0,0,4100,4242,13444,0,0,0,0,0,0,0,807,744,744,744,1,2,2,2,'Sardonyx Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29908,1,0,0,0,255,0,0,0,0,0,4100,4242,13483,0,0,0,0,0,0,0,792,653,653,653,1,2,2,2,'Pearl Ring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29909,1,0,0,0,255,0,0,0,0,0,4100,4242,12801,0,0,0,0,0,0,0,851,653,653,653,1,2,2,2,'Mythril Cuisses (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29910,1,0,0,0,255,0,0,0,0,0,4100,4242,13479,0,0,0,0,0,0,0,811,653,653,653,1,2,2,2,'Ametrine Ring (desynth)');
--- INSERT INTO `synth_recipes` VALUES (29911,1,0,0,0,255,0,0,0,0,0,4100,4242,12495,0,0,0,0,0,0,0,744,744,744,744,1,1,1,1,'Silver Hairpin (desynth)');
+INSERT INTO `synth_recipes` VALUES (29911,1,0,0,0,27,0,0,0,0,0,4100,4242,12495,0,0,0,0,0,0,0,744,744,744,744,1,1,1,1,'Silver Hairpin (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29912,1,0,0,0,255,0,0,0,0,0,4100,4242,13334,0,0,0,0,0,0,0,795,744,744,744,1,2,2,2,'Lapis Laz. Earring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29913,1,0,0,0,255,0,0,0,0,0,4100,4242,12307,0,0,0,0,0,0,0,715,651,1228,1228,2,2,6,6,'Heater Shield (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29914,1,0,0,0,255,0,0,0,0,0,4100,4242,13474,0,0,0,0,0,0,0,799,744,744,744,1,2,2,2,'Onyx Ring (desynth)');
@@ -2065,7 +2065,7 @@ INSERT INTO `synth_recipes` VALUES (25514,0,0,0,0,118,0,0,0,0,0,4096,4238,3323,8
 -- INSERT INTO `synth_recipes` VALUES (29940,1,0,0,0,255,0,0,0,0,0,4100,4242,17285,0,0,0,0,0,0,0,914,651,745,657,1,1,1,1,'Moonring Blade (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29941,1,0,0,0,255,0,0,0,0,0,4100,4242,13327,0,0,0,0,0,0,0,744,744,744,744,2,2,2,2,'Silver Earring (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29942,1,0,0,0,255,0,0,0,0,0,4100,4242,16518,0,0,0,0,0,0,0,651,653,653,653,2,2,2,2,'Mythril Degen (desynth)');
--- INSERT INTO `synth_recipes` VALUES (29943,1,0,0,0,255,0,0,0,0,0,4100,4242,12497,0,0,0,0,0,0,0,650,650,650,650,1,1,1,1,'Brass Hairpin (desynth)');
+INSERT INTO `synth_recipes` VALUES (29943,1,0,0,0,17,0,0,0,0,0,4100,4242,12497,0,0,0,0,0,0,0,650,650,650,650,1,1,1,1,'Brass Hairpin (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29944,1,0,0,0,255,0,0,0,0,0,4100,4242,12433,0,0,0,0,0,0,0,650,650,650,650,1,1,1,1,'Brass Mask (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29945,1,0,0,0,255,0,0,0,0,0,4100,4242,13979,0,0,0,0,0,0,0,744,744,744,744,3,3,3,3,'Silver Bangles (desynth)');
 -- INSERT INTO `synth_recipes` VALUES (29946,1,0,0,0,255,0,0,0,0,0,4100,4242,17284,0,0,0,0,0,0,0,914,652,745,745,1,1,1,1,'Chakram (desynth)');
