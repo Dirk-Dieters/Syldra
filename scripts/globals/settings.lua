@@ -38,7 +38,6 @@ GOV_REWARD_ALLIANCE = 0 -- Allow Grounds of Valor rewards while being a member o
 -- Records of Eminence
 
 ENABLE_ROE = 0
-
 ENABLE_ROE_TIMED = 0 -- Enable 4-hour timed records
 
 
@@ -56,7 +55,7 @@ RESTRICT_CONTENT = 1
 
 -- CHARACTER CONFIG
 INITIAL_LEVEL_CAP = 50 -- The initial level cap for new players.  There seems to be a hardcap of 255.
-MAX_LEVEL = 60 -- Level max of the server, lowers the attainable cap by disabling Limit Break quests.
+MAX_LEVEL = 65 -- Level max of the server, lowers the attainable cap by disabling Limit Break quests.
 NORMAL_MOB_MAX_LEVEL_RANGE_MIN = 0 -- Lower Bound of Max Level Range for Normal Mobs (0 = Uncapped)
 NORMAL_MOB_MAX_LEVEL_RANGE_MAX = 0 -- Upper Bound of Max Level Range for Normal Mobs (0 = Uncapped)
 START_GIL = 10 -- Amount of gil given to newly created characters.
@@ -85,14 +84,14 @@ WEAPON_SKILL_POWER  = 1.000 -- Multiplies damage dealt by Weapon Skills.
 WEAPON_SKILL_POINTS = 1.000 -- Multiplies points earned during weapon unlocking.
 USE_ADOULIN_WEAPON_SKILL_CHANGES = true -- true/false. Change to toggle new Adoulin weapon skill damage calculations
 
-HARVESTING_BREAK_CHANCE = 15 -- % chance for the sickle to break during harvesting.  Set between 0 and 100.
-EXCAVATION_BREAK_CHANCE = 15 -- % chance for the pickaxe to break during excavation.  Set between 0 and 100.
-LOGGING_BREAK_CHANCE    = 15 -- % chance for the hatchet to break during logging.  Set between 0 and 100.
-MINING_BREAK_CHANCE     = 15 -- % chance for the pickaxe to break during mining.  Set between 0 and 100.
-HARVESTING_RATE         = 50 -- % chance to recieve an item from haresting.  Set between 0 and 100.
-EXCAVATION_RATE         = 50 -- % chance to recieve an item from excavation.  Set between 0 and 100.
-LOGGING_RATE            = 50 -- % chance to recieve an item from logging.  Set between 0 and 100.
-MINING_RATE             = 50 -- % chance to recieve an item from mining.  Set between 0 and 100.
+HARVESTING_BREAK_CHANCE = 33 -- % chance for the sickle to break during harvesting.  Set between 0 and 100.
+EXCAVATION_BREAK_CHANCE = 33 -- % chance for the pickaxe to break during excavation.  Set between 0 and 100.
+LOGGING_BREAK_CHANCE    = 33 -- % chance for the hatchet to break during logging.  Set between 0 and 100.
+MINING_BREAK_CHANCE     = 33 -- % chance for the pickaxe to break during mining.  Set between 0 and 100.
+HARVESTING_RATE         = 100 -- % chance to recieve an item from haresting.  Set between 0 and 100.
+EXCAVATION_RATE         = 100 -- % chance to recieve an item from excavation.  Set between 0 and 100.
+LOGGING_RATE            = 100 -- % chance to recieve an item from logging.  Set between 0 and 100.
+MINING_RATE             = 100 -- % chance to recieve an item from mining.  Set between 0 and 100.
 DIGGING_RATE            = 85 -- % chance to receive an item from chocbo digging during favorable weather.  Set between 0 and 100.
 
 HEALING_TP_CHANGE       = -100 -- Change in TP for each healing tick. Default is -100
@@ -156,7 +155,7 @@ HALLOWEEN_YEAR_ROUND = 0 -- Set to 1 to have Harvest Festival initialize outside
 HOMEPOINT_HEAL = 1 --Set to 1 if you want Home Points to heal you like in single-player Final Fantasy games.
 RIVERNE_PORTERS = 120 -- Time in seconds that Unstable Displacements in Cape Riverne stay open after trading a scale.
 LANTERNS_STAY_LIT = 1200 -- time in seconds that lanterns in the Den of Rancor stay lit.
-ENABLE_COP_ZONE_CAP = 0 -- enable or disable lvl cap
+ENABLE_COP_ZONE_CAP = 1 -- enable or disable lvl cap
 ALLOW_MULTIPLE_EXP_RINGS = 0 -- Set to 1 to remove ownership restrictions on the Chariot/Empress/Emperor Band trio.
 BYPASS_EXP_RING_ONE_PER_WEEK = 0 -- -- Set to 1 to bypass the limit of one ring per Conquest Tally Week.
 NUMBER_OF_DM_EARRINGS = 1 -- Number of earrings players can simultaneously own from Divine Might before scripts start blocking them (Default: 1)
